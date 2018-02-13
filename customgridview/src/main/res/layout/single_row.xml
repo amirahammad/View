@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:padding="10dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+
+
+    android:paddingTop="16dp"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/grid_item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:layout_marginTop="5px"
+        android:textSize="16px"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ff1493"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_weight="0.78"
+        android:gravity="center_horizontal|center">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="60sp"
+        android:layout_height="70sp"
+        android:layout_marginRight="10px"
+        android:layoutDirection="ltr"
+        android:src="@drawable/linkedin"
+
+        >
+    </ImageView>
+
+
+
+
+</LinearLayout>

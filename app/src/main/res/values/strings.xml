@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Views</string>
+    <string-array name="flags">
+        <item>United Kingdom</item>
+        <item>Georgia</item>
+        <item>Egypt</item>
+        <item>Bermuda</item>
+        <item>Spain</item>
+        <item>Canada</item>
+    </string-array>
+</resources>
